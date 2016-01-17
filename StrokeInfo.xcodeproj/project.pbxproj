@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E9B161F31C4B7FCC00819DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B161F21C4B7FCC00819DA9 /* AppDelegate.swift */; };
-		E9B161F51C4B7FCC00819DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B161F41C4B7FCC00819DA9 /* ViewController.swift */; };
+		E9B161F51C4B7FCC00819DA9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B161F41C4B7FCC00819DA9 /* MenuViewController.swift */; };
 		E9B161F81C4B7FCC00819DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B161F61C4B7FCC00819DA9 /* Main.storyboard */; };
 		E9B161FA1C4B7FCC00819DA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9B161F91C4B7FCC00819DA9 /* Assets.xcassets */; };
 		E9B161FD1C4B7FCC00819DA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B161FB1C4B7FCC00819DA9 /* LaunchScreen.storyboard */; };
-		E9B162091C4B80F000819DA9 /* GandhiSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162051C4B80F000819DA9 /* GandhiSans-Bold.otf */; };
-		E9B1620A1C4B80F000819DA9 /* GandhiSans-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162061C4B80F000819DA9 /* GandhiSans-BoldItalic.otf */; };
-		E9B1620B1C4B80F000819DA9 /* GandhiSans-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162071C4B80F000819DA9 /* GandhiSans-Italic.otf */; };
-		E9B1620C1C4B80F000819DA9 /* GandhiSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162081C4B80F000819DA9 /* GandhiSans-Regular.otf */; };
 		E9B1620E1C4B815400819DA9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1620D1C4B815400819DA9 /* Globals.swift */; };
+		E9B162141C4B84A300819DA9 /* GandhiSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162101C4B84A300819DA9 /* GandhiSans-Bold.otf */; };
+		E9B162151C4B84A300819DA9 /* GandhiSans-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162111C4B84A300819DA9 /* GandhiSans-BoldItalic.otf */; };
+		E9B162161C4B84A300819DA9 /* GandhiSans-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162121C4B84A300819DA9 /* GandhiSans-Italic.otf */; };
+		E9B162171C4B84A300819DA9 /* GandhiSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162131C4B84A300819DA9 /* GandhiSans-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9B161EF1C4B7FCC00819DA9 /* StrokeInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrokeInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B161F21C4B7FCC00819DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9B161F41C4B7FCC00819DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9B161F41C4B7FCC00819DA9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		E9B161F71C4B7FCC00819DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9B161F91C4B7FCC00819DA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9B161FC1C4B7FCC00819DA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9B161FE1C4B7FCC00819DA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9B162051C4B80F000819DA9 /* GandhiSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-Bold.otf"; sourceTree = "<group>"; };
-		E9B162061C4B80F000819DA9 /* GandhiSans-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-BoldItalic.otf"; sourceTree = "<group>"; };
-		E9B162071C4B80F000819DA9 /* GandhiSans-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-Italic.otf"; sourceTree = "<group>"; };
-		E9B162081C4B80F000819DA9 /* GandhiSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-Regular.otf"; sourceTree = "<group>"; };
 		E9B1620D1C4B815400819DA9 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		E9B162101C4B84A300819DA9 /* GandhiSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-Bold.otf"; sourceTree = "<group>"; };
+		E9B162111C4B84A300819DA9 /* GandhiSans-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-BoldItalic.otf"; sourceTree = "<group>"; };
+		E9B162121C4B84A300819DA9 /* GandhiSans-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-Italic.otf"; sourceTree = "<group>"; };
+		E9B162131C4B84A300819DA9 /* GandhiSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +64,9 @@
 		E9B161F11C4B7FCC00819DA9 /* StrokeInfo */ = {
 			isa = PBXGroup;
 			children = (
-				E9B162041C4B80C600819DA9 /* Resources */,
+				E9B1620F1C4B84A300819DA9 /* Resources */,
 				E9B161F21C4B7FCC00819DA9 /* AppDelegate.swift */,
-				E9B161F41C4B7FCC00819DA9 /* ViewController.swift */,
+				E9B161F41C4B7FCC00819DA9 /* MenuViewController.swift */,
 				E9B1620D1C4B815400819DA9 /* Globals.swift */,
 				E9B161F61C4B7FCC00819DA9 /* Main.storyboard */,
 				E9B161F91C4B7FCC00819DA9 /* Assets.xcassets */,
@@ -76,15 +76,15 @@
 			path = StrokeInfo;
 			sourceTree = "<group>";
 		};
-		E9B162041C4B80C600819DA9 /* Resources */ = {
+		E9B1620F1C4B84A300819DA9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E9B162051C4B80F000819DA9 /* GandhiSans-Bold.otf */,
-				E9B162061C4B80F000819DA9 /* GandhiSans-BoldItalic.otf */,
-				E9B162071C4B80F000819DA9 /* GandhiSans-Italic.otf */,
-				E9B162081C4B80F000819DA9 /* GandhiSans-Regular.otf */,
+				E9B162101C4B84A300819DA9 /* GandhiSans-Bold.otf */,
+				E9B162111C4B84A300819DA9 /* GandhiSans-BoldItalic.otf */,
+				E9B162121C4B84A300819DA9 /* GandhiSans-Italic.otf */,
+				E9B162131C4B84A300819DA9 /* GandhiSans-Regular.otf */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,11 +145,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B162091C4B80F000819DA9 /* GandhiSans-Bold.otf in Resources */,
+				E9B162141C4B84A300819DA9 /* GandhiSans-Bold.otf in Resources */,
 				E9B161FD1C4B7FCC00819DA9 /* LaunchScreen.storyboard in Resources */,
-				E9B1620A1C4B80F000819DA9 /* GandhiSans-BoldItalic.otf in Resources */,
-				E9B1620B1C4B80F000819DA9 /* GandhiSans-Italic.otf in Resources */,
-				E9B1620C1C4B80F000819DA9 /* GandhiSans-Regular.otf in Resources */,
+				E9B162151C4B84A300819DA9 /* GandhiSans-BoldItalic.otf in Resources */,
+				E9B162161C4B84A300819DA9 /* GandhiSans-Italic.otf in Resources */,
+				E9B162171C4B84A300819DA9 /* GandhiSans-Regular.otf in Resources */,
 				E9B161FA1C4B7FCC00819DA9 /* Assets.xcassets in Resources */,
 				E9B161F81C4B7FCC00819DA9 /* Main.storyboard in Resources */,
 			);
@@ -162,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B161F51C4B7FCC00819DA9 /* ViewController.swift in Sources */,
+				E9B161F51C4B7FCC00819DA9 /* MenuViewController.swift in Sources */,
 				E9B161F31C4B7FCC00819DA9 /* AppDelegate.swift in Sources */,
 				E9B1620E1C4B815400819DA9 /* Globals.swift in Sources */,
 			);

@@ -3,12 +3,9 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <mutableArray key="GandhiSans-Bold.otf">
-            <string>GandhiSans-Bold</string>
-        </mutableArray>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -25,22 +22,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchGradient" translatesAutoresizingMaskIntoConstraints="NO" id="ueg-Tg-4a8">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stroke Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Pvm-3e-m9S" userLabel="Stroke">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <fontDescription key="fontDescription" name="GandhiSans-Bold" family="Gandhi Sans" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StrokeInfoText" translatesAutoresizingMaskIntoConstraints="NO" id="DgQ-yS-dgf">
+                                <rect key="frame" x="120" y="120" width="360" height="360"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DgQ-yS-dgf" secondAttribute="height" multiplier="1:1" id="HHo-Nu-FfE"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Pvm-3e-m9S" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="7ns-Hs-6E8"/>
+                            <constraint firstItem="DgQ-yS-dgf" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.6" id="0Ij-2F-7DB"/>
                             <constraint firstItem="ueg-Tg-4a8" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="88X-mx-503"/>
-                            <constraint firstItem="Pvm-3e-m9S" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Isd-XQ-CD9"/>
+                            <constraint firstItem="DgQ-yS-dgf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OC0-4i-t8M"/>
                             <constraint firstItem="ueg-Tg-4a8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RdO-Mg-tfv"/>
-                            <constraint firstItem="Pvm-3e-m9S" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="WT5-aC-0md"/>
                             <constraint firstItem="ueg-Tg-4a8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YBt-MM-qAK"/>
-                            <constraint firstItem="Pvm-3e-m9S" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="fhb-Eo-9iX"/>
+                            <constraint firstItem="DgQ-yS-dgf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tt3-1g-7Pg"/>
                             <constraint firstItem="ueg-Tg-4a8" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="wqN-Jf-CYA"/>
                         </constraints>
                     </view>
@@ -52,5 +48,6 @@
     </scenes>
     <resources>
         <image name="LaunchGradient" width="2048" height="2048"/>
+        <image name="StrokeInfoText" width="240" height="240"/>
     </resources>
 </document>
