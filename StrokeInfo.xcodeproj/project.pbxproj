@@ -17,6 +17,9 @@
 		E9B162151C4B84A300819DA9 /* GandhiSans-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162111C4B84A300819DA9 /* GandhiSans-BoldItalic.otf */; };
 		E9B162161C4B84A300819DA9 /* GandhiSans-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162121C4B84A300819DA9 /* GandhiSans-Italic.otf */; };
 		E9B162171C4B84A300819DA9 /* GandhiSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9B162131C4B84A300819DA9 /* GandhiSans-Regular.otf */; };
+		E9B162191C4B8AD600819DA9 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B162181C4B8AD600819DA9 /* GradientView.swift */; };
+		E9B1621C1C4B94DD00819DA9 /* StrokeInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B1621A1C4B94DD00819DA9 /* StrokeInfoTableViewCell.swift */; };
+		E9B1621D1C4B94DD00819DA9 /* StrokeInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9B1621B1C4B94DD00819DA9 /* StrokeInfoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		E9B162111C4B84A300819DA9 /* GandhiSans-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-BoldItalic.otf"; sourceTree = "<group>"; };
 		E9B162121C4B84A300819DA9 /* GandhiSans-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-Italic.otf"; sourceTree = "<group>"; };
 		E9B162131C4B84A300819DA9 /* GandhiSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GandhiSans-Regular.otf"; sourceTree = "<group>"; };
+		E9B162181C4B8AD600819DA9 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E9B1621A1C4B94DD00819DA9 /* StrokeInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeInfoTableViewCell.swift; sourceTree = "<group>"; };
+		E9B1621B1C4B94DD00819DA9 /* StrokeInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrokeInfoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 				E9B1620F1C4B84A300819DA9 /* Resources */,
 				E9B161F21C4B7FCC00819DA9 /* AppDelegate.swift */,
 				E9B161F41C4B7FCC00819DA9 /* MenuViewController.swift */,
+				E9B1621E1C4B95D500819DA9 /* Subclasses */,
 				E9B1620D1C4B815400819DA9 /* Globals.swift */,
 				E9B161F61C4B7FCC00819DA9 /* Main.storyboard */,
 				E9B161F91C4B7FCC00819DA9 /* Assets.xcassets */,
@@ -85,6 +92,16 @@
 				E9B162131C4B84A300819DA9 /* GandhiSans-Regular.otf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9B1621E1C4B95D500819DA9 /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				E9B162181C4B8AD600819DA9 /* GradientView.swift */,
+				E9B1621A1C4B94DD00819DA9 /* StrokeInfoTableViewCell.swift */,
+				E9B1621B1C4B94DD00819DA9 /* StrokeInfoTableViewCell.xib */,
+			);
+			name = Subclasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +165,7 @@
 				E9B162141C4B84A300819DA9 /* GandhiSans-Bold.otf in Resources */,
 				E9B161FD1C4B7FCC00819DA9 /* LaunchScreen.storyboard in Resources */,
 				E9B162151C4B84A300819DA9 /* GandhiSans-BoldItalic.otf in Resources */,
+				E9B1621D1C4B94DD00819DA9 /* StrokeInfoTableViewCell.xib in Resources */,
 				E9B162161C4B84A300819DA9 /* GandhiSans-Italic.otf in Resources */,
 				E9B162171C4B84A300819DA9 /* GandhiSans-Regular.otf in Resources */,
 				E9B161FA1C4B7FCC00819DA9 /* Assets.xcassets in Resources */,
@@ -163,7 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9B161F51C4B7FCC00819DA9 /* MenuViewController.swift in Sources */,
+				E9B1621C1C4B94DD00819DA9 /* StrokeInfoTableViewCell.swift in Sources */,
 				E9B161F31C4B7FCC00819DA9 /* AppDelegate.swift in Sources */,
+				E9B162191C4B8AD600819DA9 /* GradientView.swift in Sources */,
 				E9B1620E1C4B815400819DA9 /* Globals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

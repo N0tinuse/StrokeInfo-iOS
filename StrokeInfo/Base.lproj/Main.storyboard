@@ -4,6 +4,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="GandhiSans-Bold.otf">
+            <string>GandhiSans-Bold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Menu View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -16,9 +21,38 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stroke Reference" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AeD-Bi-PJP">
+                                <rect key="frame" x="0.0" y="30" width="600" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Ulc-3L-WP7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GandhiSans-Bold" family="Gandhi Sans" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.83150173051606446" blue="0.43592985235320536" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BJT-XC-3f5" userLabel="Menu">
+                                <rect key="frame" x="10" y="70" width="580" height="520"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BJT-XC-3f5" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-20" id="1Fb-nl-j7B"/>
+                            <constraint firstItem="AeD-Bi-PJP" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Ob0-Vf-I8G"/>
+                            <constraint firstItem="BJT-XC-3f5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ObV-yg-rvw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BJT-XC-3f5" secondAttribute="bottom" constant="10" id="fcE-Pj-oC3"/>
+                            <constraint firstItem="AeD-Bi-PJP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="pF8-0h-V40"/>
+                            <constraint firstItem="AeD-Bi-PJP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pcO-Cs-911"/>
+                            <constraint firstItem="BJT-XC-3f5" firstAttribute="top" secondItem="AeD-Bi-PJP" secondAttribute="bottom" constant="10" id="ufF-xj-upi"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GZF-Ml-Etb"/>
+                    <connections>
+                        <outlet property="menuTableView" destination="BJT-XC-3f5" id="3wL-Hd-NLa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
