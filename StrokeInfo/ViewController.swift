@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MenuViewController.swift
 //  StrokeInfo
 //
 //  Created by Will Meyer on 1/16/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MenuViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

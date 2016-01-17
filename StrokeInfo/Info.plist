@@ -22,6 +22,13 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>GandhiSans-Bold.otf</string>
+		<string>GandhiSans-BoldItalic.otf</string>
+		<string>GandhiSans-Italic.otf</string>
+		<string>GandhiSans-Regular.otf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
